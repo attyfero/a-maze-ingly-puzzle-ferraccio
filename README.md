@@ -80,7 +80,21 @@ This is the item "id" node, write inside the json, used by program as root node.
 
 # Running a program
 
-## Run program
+## Command line execution
+
+### Python version
+
+```
+python 3.7
+```
+
+### Dependecies installation
+
+```
+pip install -r requirements.txt
+```
+
+### Run program
 
 ```
 python <py program> <json file name> <root node id> <string list of word>
@@ -91,7 +105,7 @@ es.
 python src/run.py tests/input_json/json_input_file.json 2 "Knife,Potted Plant"
 ```
 
-## Run test
+### Run test
 
 ```
 nosetests tests
